@@ -1,0 +1,62 @@
+# Laravel Specific
+/vendor/
+/node_modules/
+
+# Environment Files
+.env
+.env.*.backup
+.env.backup
+
+# Vite Build Files
+/public/build/
+/public/hot
+/storage/framework/cache/data
+/vite
+
+# Logs and Debugging Files
+/storage/*.key
+/storage/logs/*.log
+/storage/framework/sessions/*
+/storage/framework/views/*
+
+# Cache and Temp Files
+/bootstrap/cache/*
+.phpunit.result.cache
+
+# Docker Specific
+docker-compose.override.yml
+docker-compose*.yml
+*.log
+*.pid
+*.seed
+
+# Nginx Specific
+nginx/*.conf
+
+# IDE Specific
+.idea/
+.vscode/
+*.swp
+*.swo
+*.DS_Store
+*.log
+
+# System Specific
+Thumbs.db
+.DS_Store
+
+# Deployment
+/.env.production
+/.env.testing
+
+# User-Generated Files
+/public/storage
+
+# Composer and NPM Dependencies
+composer.lock
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Laravel Horizon (if used)
+/horizon.log
